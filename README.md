@@ -81,3 +81,5 @@ The frontend runs on port `5173` (Vite default).
 * **backend/** - Flask API and Python logic.
 * **frontend/** - React frontend source code.
 * **rentawheel_dbms/** - SQL scripts for database creation.
+
+Parent Repository : https://github.com/Maanav-1/car-rental

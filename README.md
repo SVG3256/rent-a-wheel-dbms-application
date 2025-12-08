@@ -1,4 +1,16 @@
 # Rent-A-Wheel - Car Rental System
+### Modern DBMS application to manage hassle-free car rentals
+---
+## TOP LEVEL DESCRIPTION OF THE PROJECT
+Rent-A-Wheel is a car rental platform that manages vehicle rentals across multiple branches. Branches employ multiple employees. Employees are responsible for various activities, currently role added for logging maintenance work on cars.
+
+Cars in the fleet are uniquely identified by a car ID and have a license plate number, mileage, and current status. Every car belongs to one branch and is classified by a car type which details the make, model, year, category, and daily rental rate. Branches stock multiple cars, each linked to a specific car type.
+
+Customers can register on the platform by providing personal details including name, date of birth, email, contact number, and driver's license number. Customers can search the cars available for various timings across different branch locations. They need to select desired car from given options and set the rental period. Once the selection is made, custome r proceeds to the payment screen for the calculated amount. Once it is done, the booking is confirmed and that car becomes unavailable to other customers.
+
+A customer can make one booking at a time. The booking also references an insurance policy chosen by the customer, which has its package name, daily cost, and coverage details. Optionally, customers may apply a promotion code to avail discounts, which includes a discount percentage and validity period indicated by the start and end date of the promo code. A customer can apply at most one promo code per booking. After completing a rental, customers can provide feedback, including a rating, comments, and submission date. 
+
+The application also supports an employee portal GUI which allows designated employees to log maintenance requests and provides an analytics dashboard for fleet management and tracking revenue from bookings.Maintenance activities are logged by employees along with their estimated cost and linked to the specific cars serviced.
 
 ##  Prerequisites
 Make sure you have the following installed:
@@ -69,14 +81,3 @@ The frontend runs on port `5173` (Vite default).
 * **backend/** - Flask API and Python logic.
 * **frontend/** - React frontend source code.
 * **rentawheel_dbms/** - SQL scripts for database creation.
-
-## TOP LEVEL DESCRIPTION OF THE PROJECT
-Rent-A-Wheel is a car rental platform that manages vehicle rentals across multiple branches. Branches employ multiple employees. Employees are responsible for various activities, currently role added for logging maintenance work on cars.
-
-Cars in the fleet are uniquely identified by a car ID and have a license plate number, mileage, and current status. Every car belongs to one branch and is classified by a car type which details the make, model, year, category, and daily rental rate. Branches stock multiple cars, each linked to a specific car type.
-
-Customers can register on the platform by providing personal details including name, date of birth, email, contact number, and driver's license number. Customers can search the cars available for various timings across different branch locations. They need to select desired car from given options and set the rental period. Once the selection is made, custome r proceeds to the payment screen for the calculated amount. Once it is done, the booking is confirmed and that car becomes unavailable to other customers.
-
-A customer can make one booking at a time. The booking also references an insurance policy chosen by the customer, which has its package name, daily cost, and coverage details. Optionally, customers may apply a promotion code to avail discounts, which includes a discount percentage and validity period indicated by the start and end date of the promo code. A customer can apply at most one promo code per booking. After completing a rental, customers can provide feedback, including a rating, comments, and submission date. 
-
-The application also supports an employee portal GUI which allows designated employees to log maintenance requests and provides an analytics dashboard for fleet management and tracking revenue from bookings.Maintenance activities are logged by employees along with their estimated cost and linked to the specific cars serviced.

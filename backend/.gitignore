@@ -1,0 +1,18 @@
+# Backend .gitignore (Python/Flask)
+
+# Virtual Environment
+/venv
+/env
+
+# Byte-compiled / optimized / dynamically loaded files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE-related files
+.idea/
+.vscode/
+
+# Build artifacts
+dist/
+build/
